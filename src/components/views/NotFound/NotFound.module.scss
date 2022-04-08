@@ -1,0 +1,14 @@
+@import '../../../styles/settings.scss';
+
+.root {
+  padding: $base-size * 2;
+  background-color: $color-dark;
+  .title {
+    color: $color-error;
+  }
+  .button {
+    color: $color-white;
+    background-color: $color-green;
+    margin: $base-size;
+  }
+}
